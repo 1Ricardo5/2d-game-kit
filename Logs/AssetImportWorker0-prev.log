@@ -1,0 +1,600 @@
+Unity Editor version:    2020.3.27f1 (e759542391ea)
+Branch:                  2020.3/release
+Build type:              Release
+Batch mode:              YES
+macOS version:           Version 11.6.7 (Build 20G630)
+Darwin version:          20.6.0
+Architecture:            x86_64
+Running under Rosetta:   NO
+Available memory:        16384 MB
+Using pre-set license
+Pro License: NO
+
+COMMAND LINE ARGUMENTS:
+/Users/game1/Downloads/2020.3.27f1/Unity.app/Contents/MacOS/Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+/Users/game1/2d game kit
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+55552
+Successfully changed project path to: /Users/game1/2d game kit
+/Users/game1/2d game kit
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 47.42 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.27f1 (e759542391ea)
+[Subsystems] Discovering subsystems at path /Users/game1/Downloads/2020.3.27f1/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/game1/2d game kit/Assets
+GfxDevice: creating device client; threaded=0
+Renderer: AMD Radeon Pro 5500 XT OpenGL Engine
+Vendor:   ATI Technologies Inc.
+Version:  4.1 ATI-4.6.21
+GLES:     0
+ GL_ARB_blend_func_extended GL_ARB_draw_buffers_blend GL_ARB_draw_indirect GL_ARB_ES2_compatibility GL_ARB_explicit_attrib_location GL_ARB_gpu_shader_fp64 GL_ARB_gpu_shader5 GL_ARB_instanced_arrays GL_ARB_internalformat_query GL_ARB_occlusion_query2 GL_ARB_sample_shading GL_ARB_sampler_objects GL_ARB_separate_shader_objects GL_ARB_shader_bit_encoding GL_ARB_shader_subroutine GL_ARB_shading_language_include GL_ARB_tessellation_shader GL_ARB_texture_buffer_object_rgb32 GL_ARB_texture_cube_map_array GL_ARB_texture_gather GL_ARB_texture_query_lod GL_ARB_texture_rgb10_a2ui GL_ARB_texture_storage GL_ARB_texture_swizzle GL_ARB_timer_query GL_ARB_transform_feedback2 GL_ARB_transform_feedback3 GL_ARB_vertex_attrib_64bit GL_ARB_vertex_type_2_10_10_10_rev GL_ARB_viewport_array GL_EXT_debug_label GL_EXT_debug_marker GL_EXT_depth_bounds_test GL_EXT_texture_compression_s3tc GL_EXT_texture_filter_anisotropic GL_EXT_texture_mirror_clamp GL_EXT_texture_sRGB_decode GL_APPLE_client_storage GL_APPLE_container_object_shareable G
+L_APPLE_flush_render GL_APPLE_object_purgeable GL_APPLE_rgb_422 GL_APPLE_row_bytes GL_APPLE_texture_range GL_ATI_texture_mirror_once GL_NV_texture_barrier
+OPENGL LOG: Creating OpenGL 4.1 graphics device ; Context level  <OpenGL 4.1> ; Context handle 570877952
+Initialize mono
+Mono path[0] = '/Users/game1/Downloads/2020.3.27f1/Unity.app/Contents/Managed'
+Mono path[1] = '/Users/game1/Downloads/2020.3.27f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = '/Users/game1/Downloads/2020.3.27f1/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56987
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Users/game1/Downloads/2020.3.27f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Registered in 0.000443 seconds.
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 39.58 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.508 seconds
+Domain Reload Profiling:
+	ReloadAssembly (508ms)
+		BeginReloadAssembly (37ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (408ms)
+			LoadAssemblies (36ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (152ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (31ms)
+			SetupLoadedEditorAssemblies (157ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (3ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (40ms)
+				BeforeProcessingInitializeOnLoad (6ms)
+				ProcessInitializeOnLoadAttributes (83ms)
+				ProcessInitializeOnLoadMethodAttributes (24ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.004653 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.49 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.961 seconds
+Domain Reload Profiling:
+	ReloadAssembly (961ms)
+		BeginReloadAssembly (131ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (26ms)
+		EndReloadAssembly (776ms)
+			LoadAssemblies (82ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (292ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (55ms)
+			SetupLoadedEditorAssemblies (253ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (3ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (43ms)
+				ProcessInitializeOnLoadAttributes (194ms)
+				ProcessInitializeOnLoadMethodAttributes (12ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+Validating Project structure ... 0.028686 seconds.
+Shader import version has changed; will reimport all shaders...
+Upgrading shader files ...0.050934 seconds.
+Application.AssetDatabase Initial Script Refresh Start
+RefreshInfo: InitialScriptRefreshV2(NoUpdateAssetOptions) scanfilter:  ... 1 filters
+RefreshProfiler: Total: 0.000ms
+Application.AssetDatabase Initial Script Refresh End
+Application.AssetDatabase.Refresh Start
+Application.AssetDatabase.Refresh End
+RefreshInfo: StopAssetImportingV2(ForceSynchronousImport) scanfilter: 
+RefreshProfiler: Total: 0.000ms
+Launching external process: /Users/game1/Downloads/2020.3.27f1/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.01 seconds
+Initializing Unity extensions:
+========================================================================
+Worker process is ready to serve import requests
+Refreshing native plugins compatible for Editor in 0.47 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2062 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 213.9 MB.
+System memory in use after: 213.3 MB.
+
+Unloading 223 unused Assets to reduce memory usage. Loaded Objects now: 2529.
+Total: 2.669662 ms (FindLiveObjects: 0.159620 ms CreateObjectMapping: 0.082979 ms MarkObjects: 2.041362 ms  DeleteObjects: 0.385133 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/2DGamekit/Prefabs/VFX/Ellen/JumpPuff.prefab
+  artifactKey: Guid(7ff0708625eb73d4080bdb1316d063f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Prefabs/VFX/Ellen/JumpPuff.prefab using Guid(7ff0708625eb73d4080bdb1316d063f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '669e8ede65ace29e9a36588ad3321339') in 0.898934 seconds 
+  Import took 0.905618 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000186 seconds.
+  path: Assets/2DGamekit/Prefabs/VFX/Interactables/HealingEffect.prefab
+  artifactKey: Guid(22d975de71983884ea3e0dcc57424749) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Prefabs/VFX/Interactables/HealingEffect.prefab using Guid(22d975de71983884ea3e0dcc57424749) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b74f70e834b1eef4865b662d8d99e1c') in 0.010892 seconds 
+  Import took 0.013866 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000161 seconds.
+  path: Assets/2DGamekit/Prefabs/VFX/Enemies/Gunner/GunnerShieldHit.prefab
+  artifactKey: Guid(c5f99beb88686a342b1d3a911e99f8c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Prefabs/VFX/Enemies/Gunner/GunnerShieldHit.prefab using Guid(c5f99beb88686a342b1d3a911e99f8c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e811c0241a8131e43d2478464ab6afe7') in 0.014349 seconds 
+  Import took 0.017719 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000152 seconds.
+  path: Assets/2DGamekit/Prefabs/VFX/Ellen/JumpEffect.prefab
+  artifactKey: Guid(7e73f509e566c5b4f84c4fe249de14d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Prefabs/VFX/Ellen/JumpEffect.prefab using Guid(7e73f509e566c5b4f84c4fe249de14d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3e4b72d2581bfaf5c0d2dacbd04e2d8') in 0.006016 seconds 
+  Import took 0.008814 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000149 seconds.
+  path: Assets/2DGamekit/Prefabs/VFX/Enemies/Gunner/GunnerGrenade.prefab
+  artifactKey: Guid(2ac3d03c4b22fb24a9d186e58a291f57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Prefabs/VFX/Enemies/Gunner/GunnerGrenade.prefab using Guid(2ac3d03c4b22fb24a9d186e58a291f57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf7f14d77d9a6a85b3a646b0979d83ca') in 0.017590 seconds 
+  Import took 0.020854 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000153 seconds.
+  path: Assets/2DGamekit/Prefabs/VFX/Enemies/Gunner/GunnerProjectileFire.prefab
+  artifactKey: Guid(62e2325fb41250c478144a6d6d028060) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Prefabs/VFX/Enemies/Gunner/GunnerProjectileFire.prefab using Guid(62e2325fb41250c478144a6d6d028060) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '408234f24df1eb3425fec64f21646365') in 0.005884 seconds 
+  Import took 0.008694 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000129 seconds.
+  path: Assets/2DGamekit/Prefabs/VFX/Enemies/Gunner/GunnerDamage.prefab
+  artifactKey: Guid(d5a14f17f544e6c4db02c9bdfbb9b1b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Prefabs/VFX/Enemies/Gunner/GunnerDamage.prefab using Guid(d5a14f17f544e6c4db02c9bdfbb9b1b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd66a7edab76a6adae0c81ad275d2a621') in 0.006155 seconds 
+  Import took 0.009602 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000140 seconds.
+  path: Assets/2DGamekit/Prefabs/VFX/Enemies/Spitter/SpitterSpit.prefab
+  artifactKey: Guid(c41384fe176ad434a994a2a22ed8f392) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Prefabs/VFX/Enemies/Spitter/SpitterSpit.prefab using Guid(c41384fe176ad434a994a2a22ed8f392) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd257db75ed110bbfa234706ab61f723') in 0.007174 seconds 
+  Import took 0.010160 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000141 seconds.
+  path: Assets/2DGamekit/Prefabs/VFX/Ellen/RespawnEffect.prefab
+  artifactKey: Guid(960671438a9b3af448a47e937861e099) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Prefabs/VFX/Ellen/RespawnEffect.prefab using Guid(960671438a9b3af448a47e937861e099) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7991a224aa6c0e5554f1adfabe12e084') in 0.007419 seconds 
+  Import took 0.010329 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000152 seconds.
+  path: Assets/2DGamekit/Prefabs/VFX/Enemies/Gunner/GunnerProjectileHit.prefab
+  artifactKey: Guid(ebf7ed0a9a9a50e498db0703765a94a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Prefabs/VFX/Enemies/Gunner/GunnerProjectileHit.prefab using Guid(ebf7ed0a9a9a50e498db0703765a94a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bad9553940363957a5e87bbaa0d138a1') in 0.005447 seconds 
+  Import took 0.008513 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000157 seconds.
+  path: Assets/2DGamekit/Prefabs/VFX/Enemies/Gunner/GunnerUpBeamEffect.prefab
+  artifactKey: Guid(9900d904a54f7f2478123cb690ab35a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Prefabs/VFX/Enemies/Gunner/GunnerUpBeamEffect.prefab using Guid(9900d904a54f7f2478123cb690ab35a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43e35e39a01450b6d5340c97f0867a9f') in 0.006472 seconds 
+  Import took 0.009857 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000135 seconds.
+  path: Assets/2DGamekit/Prefabs/VFX/Enemies/Gunner/LightningFloor.prefab
+  artifactKey: Guid(790785ce1430b304194fd6139de35800) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Prefabs/VFX/Enemies/Gunner/LightningFloor.prefab using Guid(790785ce1430b304194fd6139de35800) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29e0e46f6ffcfe57e58d18b294753190') in 0.012457 seconds 
+  Import took 0.015536 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000148 seconds.
+  path: Assets/2DGamekit/Prefabs/VFX/Interactables/PlatformCircleEffect.prefab
+  artifactKey: Guid(a8ee876fba0908d44b68aaaecca8a4e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Prefabs/VFX/Interactables/PlatformCircleEffect.prefab using Guid(a8ee876fba0908d44b68aaaecca8a4e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32e2e6a1081a2352f6ecf869cbd390cc') in 0.006360 seconds 
+  Import took 0.009519 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000141 seconds.
+  path: Assets/2DGamekit/Prefabs/VFX/Environment/GrassPuff.prefab
+  artifactKey: Guid(27ab20378afc6044fa7e280ace3536a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Prefabs/VFX/Environment/GrassPuff.prefab using Guid(27ab20378afc6044fa7e280ace3536a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8066260785438f0809d880cb81bb2e06') in 0.006246 seconds 
+  Import took 0.009388 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000176 seconds.
+  path: Assets/2DGamekit/Prefabs/VFX/Enemies/Gunner/GunnerHitDamage.prefab
+  artifactKey: Guid(b3bb281a13618314da45e7c0d01d9f5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Prefabs/VFX/Enemies/Gunner/GunnerHitDamage.prefab using Guid(b3bb281a13618314da45e7c0d01d9f5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a557fa9b42d1dbc870934f1eb35b571') in 0.007378 seconds 
+  Import took 0.010475 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000170 seconds.
+  path: Assets/2DGamekit/Prefabs/VFX/Ellen/StaffSwish.prefab
+  artifactKey: Guid(c2ca09eb4f39b584997e1c60b92d6af9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Prefabs/VFX/Ellen/StaffSwish.prefab using Guid(c2ca09eb4f39b584997e1c60b92d6af9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '014db6d4091f53f98524422aff1973a6') in 0.060073 seconds 
+  Import took 0.062837 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000150 seconds.
+  path: Assets/2DGamekit/Prefabs/VFX/Ellen/StaffSwishAirborne.prefab
+  artifactKey: Guid(0576e4604c516d2419ee67c0cadec118) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Prefabs/VFX/Ellen/StaffSwishAirborne.prefab using Guid(0576e4604c516d2419ee67c0cadec118) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d1d3ea0d36a175a1f9fe2b596597d8c') in 0.006750 seconds 
+  Import took 0.009690 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000146 seconds.
+  path: Assets/2DGamekit/Prefabs/VFX/Environment/WaterDrops.prefab
+  artifactKey: Guid(442d052f49435114ab9fc7c8c0016e7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Prefabs/VFX/Environment/WaterDrops.prefab using Guid(442d052f49435114ab9fc7c8c0016e7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0cec8ff64cf06b5e295516808954604') in 0.008183 seconds 
+  Import took 0.011216 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000150 seconds.
+  path: Assets/2DGamekit/Prefabs/VFX/Interactables/PickUpEffect.prefab
+  artifactKey: Guid(5a4dedcc0d105f34da4eed8c2a3f3f67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Prefabs/VFX/Interactables/PickUpEffect.prefab using Guid(5a4dedcc0d105f34da4eed8c2a3f3f67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4bde56c61a61d68ec0250855c2c64423') in 0.008509 seconds 
+  Import took 0.011480 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000145 seconds.
+  path: Assets/2DGamekit/Prefabs/VFX/Enemies/Gunner/GunnerLightning.prefab
+  artifactKey: Guid(0fce9aca7785d364a90b48c98c3a51b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Prefabs/VFX/Enemies/Gunner/GunnerLightning.prefab using Guid(0fce9aca7785d364a90b48c98c3a51b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5244d98214314021b2ae5adc3478c4b2') in 0.006839 seconds 
+  Import took 0.009883 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000150 seconds.
+  path: Assets/2DGamekit/Prefabs/VFX/Enemies/Spitter/SpitProjectille.prefab
+  artifactKey: Guid(7a9b8f4adaceb7d469f3f02edc8472d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Prefabs/VFX/Enemies/Spitter/SpitProjectille.prefab using Guid(7a9b8f4adaceb7d469f3f02edc8472d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10ff5a1553f207c298263b5ad0e0a54c') in 0.011883 seconds 
+  Import took 0.014980 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000148 seconds.
+  path: Assets/2DGamekit/Prefabs/VFX/Ellen/GunMuzzleFlash.prefab
+  artifactKey: Guid(2b7a2e498fd198541a255cf07be4e057) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Prefabs/VFX/Ellen/GunMuzzleFlash.prefab using Guid(2b7a2e498fd198541a255cf07be4e057) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d034d8633ac22d3155264c34a156f36') in 0.011862 seconds 
+  Import took 0.014768 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000153 seconds.
+  path: Assets/2DGamekit/Prefabs/VFX/Environment/Puff.prefab
+  artifactKey: Guid(fcad5e11c16c37d4597d0bd76bcaf252) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Prefabs/VFX/Environment/Puff.prefab using Guid(fcad5e11c16c37d4597d0bd76bcaf252) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1bb81ed315297bf252a596bb1114213f') in 0.006047 seconds 
+  Import took 0.009217 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000145 seconds.
+  path: Assets/2DGamekit/Prefabs/VFX/Enemies/Gunner/GunnerProjectile.prefab
+  artifactKey: Guid(7cca00a010a54534493450e42c76b7bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Prefabs/VFX/Enemies/Gunner/GunnerProjectile.prefab using Guid(7cca00a010a54534493450e42c76b7bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb24713045fde4b1b0b000b93fe3949c') in 0.007653 seconds 
+  Import took 0.010693 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000156 seconds.
+  path: Assets/2DGamekit/Prefabs/VFX/Enemies/Gunner/GunnerShield.prefab
+  artifactKey: Guid(4ba44c764bf20fc4c88a7a42dca61256) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Prefabs/VFX/Enemies/Gunner/GunnerShield.prefab using Guid(4ba44c764bf20fc4c88a7a42dca61256) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b35907dfd1ce6fc775ff8cfc22d2207a') in 0.021681 seconds 
+  Import took 0.024791 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000170 seconds.
+  path: Assets/2DGamekit/Prefabs/VFX/Environment/Steam.prefab
+  artifactKey: Guid(0f7bda6c318b58640bc5e5535cef046a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Prefabs/VFX/Environment/Steam.prefab using Guid(0f7bda6c318b58640bc5e5535cef046a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa5a31fdddf0bcbb78a07413090a84cc') in 0.006279 seconds 
+  Import took 0.009388 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000148 seconds.
+  path: Assets/2DGamekit/Prefabs/VFX/Interactables/HealingGlobe.prefab
+  artifactKey: Guid(a143bc5e08fd214439e68f9541e16066) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Prefabs/VFX/Interactables/HealingGlobe.prefab using Guid(a143bc5e08fd214439e68f9541e16066) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca5d5cd30724ad56af6f4fd9cf9fef5f') in 0.044036 seconds 
+  Import took 0.047004 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000158 seconds.
+  path: Packages/com.unity.xr.legacyinputhelpers/Prefabs/XRRig.prefab
+  artifactKey: Guid(c116b7497ab8ca34c9188965d4295e27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.xr.legacyinputhelpers/Prefabs/XRRig.prefab using Guid(c116b7497ab8ca34c9188965d4295e27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53e5402df3ba6997afeb4e074ac5eb80') in 0.006569 seconds 
+  Import took 0.009232 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000144 seconds.
+  path: Assets/2DGamekit/Prefabs/VFX/Enemies/Gunner/GunnerBeamEffect.prefab
+  artifactKey: Guid(296b19e4ad513154e9aa7cff2f759a1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Prefabs/VFX/Enemies/Gunner/GunnerBeamEffect.prefab using Guid(296b19e4ad513154e9aa7cff2f759a1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8b9604ce21112eec370997d440f8326') in 0.014043 seconds 
+  Import took 0.016807 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000150 seconds.
+  path: Assets/2DGamekit/Prefabs/VFX/Environment/LightShafts.prefab
+  artifactKey: Guid(3a492dd3fad5930408af4662b7da6f80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Prefabs/VFX/Environment/LightShafts.prefab using Guid(3a492dd3fad5930408af4662b7da6f80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5273ec5aae1b209b92fd4c76c550d475') in 0.011951 seconds 
+  Import took 0.014539 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.725193 seconds.
+  path: Assets/2DGamekit/Prefabs/VFX/Environment/BlueMotes.prefab
+  artifactKey: Guid(4c916d2207d2300418a5957aa19521d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Prefabs/VFX/Environment/BlueMotes.prefab using Guid(4c916d2207d2300418a5957aa19521d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be9684ef84fc60e867118b0270461a7b') in 0.005238 seconds 
+  Import took 0.008497 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000144 seconds.
+  path: Assets/2DGamekit/Prefabs/VFX/Enemies/Chomper/ChomperDie.prefab
+  artifactKey: Guid(61a6972b233f54246b0d0c15eabfb857) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Prefabs/VFX/Enemies/Chomper/ChomperDie.prefab using Guid(61a6972b233f54246b0d0c15eabfb857) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bfb1d4b38646ff2d9fbffcdbf81bcefe') in 0.005753 seconds 
+  Import took 0.008310 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000133 seconds.
+  path: Assets/2DGamekit/Prefabs/VFX/Ellen/EllenHurt.prefab
+  artifactKey: Guid(64b0b5135e518aa4fbd439bfa5a1b3ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Prefabs/VFX/Ellen/EllenHurt.prefab using Guid(64b0b5135e518aa4fbd439bfa5a1b3ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c60c324228a131cc577c54f63f967b60') in 0.007388 seconds 
+  Import took 0.010068 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000134 seconds.
+  path: Assets/2DGamekit/Prefabs/VFX/Ellen/EllenHurt2.prefab
+  artifactKey: Guid(85707e6160ceaa84697a396f632788f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Prefabs/VFX/Ellen/EllenHurt2.prefab using Guid(85707e6160ceaa84697a396f632788f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76d77afac0025559e18ad65e4a3a35a1') in 0.010810 seconds 
+  Import took 0.013708 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000144 seconds.
+  path: Assets/2DGamekit/Prefabs/VFX/Environment/Fireflies.prefab
+  artifactKey: Guid(afb89849ba0bcd141814c33c753a935b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Prefabs/VFX/Environment/Fireflies.prefab using Guid(afb89849ba0bcd141814c33c753a935b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5af1e0c8a0d684022d80ad859989d0ba') in 0.005410 seconds 
+  Import took 0.007869 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000147 seconds.
+  path: Assets/2DGamekit/Prefabs/VFX/Environment/DustPuff.prefab
+  artifactKey: Guid(ca91f9a8283f57042830bdc02fa84302) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Prefabs/VFX/Environment/DustPuff.prefab using Guid(ca91f9a8283f57042830bdc02fa84302) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd3cc321d67846ab91d6cbffcb8fbe47') in 0.006945 seconds 
+  Import took 0.009778 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000145 seconds.
+  path: Assets/2DGamekit/Prefabs/VFX/Ellen/EllenDeath.prefab
+  artifactKey: Guid(4e4d2ff5369121544b93398086397215) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Prefabs/VFX/Ellen/EllenDeath.prefab using Guid(4e4d2ff5369121544b93398086397215) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6bf1a1bd488526b8e43f93eaa7ae8e0c') in 0.005111 seconds 
+  Import took 0.007763 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000151 seconds.
+  path: Assets/2DGamekit/Prefabs/VFX/Ellen/EllenDeath2.prefab
+  artifactKey: Guid(9e338b4c54ba94d49abce741fc8a30d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Prefabs/VFX/Ellen/EllenDeath2.prefab using Guid(9e338b4c54ba94d49abce741fc8a30d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43524043dcce6556284d4b4549633c25') in 0.008671 seconds 
+  Import took 0.011609 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000145 seconds.
+  path: Assets/2DGamekit/Prefabs/VFX/Ellen/BulletImpact.prefab
+  artifactKey: Guid(8b019aae9fde32e41aa6181013f53be2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Prefabs/VFX/Ellen/BulletImpact.prefab using Guid(8b019aae9fde32e41aa6181013f53be2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab448e53c9b9327881c4e56e42412dc3') in 0.007047 seconds 
+  Import took 0.010114 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000150 seconds.
+  path: Assets/2DGamekit/Prefabs/VFX/Enemies/Chomper/ChomperBiteEffect.prefab
+  artifactKey: Guid(36e8cdbcd42e8104cb2a7e06368f23e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Prefabs/VFX/Enemies/Chomper/ChomperBiteEffect.prefab using Guid(36e8cdbcd42e8104cb2a7e06368f23e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d8a8f5fa694619997e8f06789b23489') in 0.007594 seconds 
+  Import took 0.010461 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000149 seconds.
+  path: Assets/2DGamekit/Prefabs/VFX/Ellen/Bullet.prefab
+  artifactKey: Guid(4593cdd83a432764aac5e418b812b3e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Prefabs/VFX/Ellen/Bullet.prefab using Guid(4593cdd83a432764aac5e418b812b3e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5f5af77e89170ddb9aadcbf77a2d228') in 0.009302 seconds 
+  Import took 0.012242 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 669.153885 seconds.
+  path: Assets/2DGamekit/Utilities/PostProcessing/Zone2CutsceneProfile.asset
+  artifactKey: Guid(3bda66f1de526ca4aa49b80158ecd756) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Utilities/PostProcessing/Zone2CutsceneProfile.asset using Guid(3bda66f1de526ca4aa49b80158ecd756) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f92ba60cc625fc4ad303b238dc1c853a') in 0.240800 seconds 
+  Import took 0.247163 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000233 seconds.
+  path: Assets/2DGamekit/Utilities/PostProcessing/Zone4DepthProfile.asset
+  artifactKey: Guid(8634a86447847164a8a4303215c5c6b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Utilities/PostProcessing/Zone4DepthProfile.asset using Guid(8634a86447847164a8a4303215c5c6b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4a3294c23b1aba18d2930af6633149d') in 0.003163 seconds 
+  Import took 0.005761 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000136 seconds.
+  path: Assets/2DGamekit/Utilities/PostProcessing/Zone6CutsceneProfile.asset
+  artifactKey: Guid(52b7cd37f0af04b45a51aea00bc8d1ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Utilities/PostProcessing/Zone6CutsceneProfile.asset using Guid(52b7cd37f0af04b45a51aea00bc8d1ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc5f97e37d3e4582c625eef8dae055d8') in 0.003357 seconds 
+  Import took 0.005897 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000136 seconds.
+  path: Assets/2DGamekit/Utilities/PostProcessing/Zone3WeaponPickupProfile.asset
+  artifactKey: Guid(8a48432ccd830a846953086ec578bcb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Utilities/PostProcessing/Zone3WeaponPickupProfile.asset using Guid(8a48432ccd830a846953086ec578bcb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c069df4023e6cb86bdd041e7ed634b9') in 0.002198 seconds 
+  Import took 0.004554 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000134 seconds.
+  path: Assets/2DGamekit/Utilities/PostProcessing/Zone3CaveProfile.asset
+  artifactKey: Guid(3591574c6d1755d4fa1a5dccd8ea3413) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Utilities/PostProcessing/Zone3CaveProfile.asset using Guid(3591574c6d1755d4fa1a5dccd8ea3413) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77d3cbf96500a7ca4d8d1fda3a08d040') in 0.002115 seconds 
+  Import took 0.004439 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.577375 seconds.
+  path: Assets/2DGamekit/Scenes/Zone1.unity
+  artifactKey: Guid(a94cb8f134bf81349ad016c79b629e3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Scenes/Zone1.unity using Guid(a94cb8f134bf81349ad016c79b629e3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e8d875f82726615edba8df2322e2207') in 0.001126 seconds 
+  Import took 0.004336 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005537 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.48 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.965 seconds
+Domain Reload Profiling:
+	ReloadAssembly (965ms)
+		BeginReloadAssembly (107ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (53ms)
+		EndReloadAssembly (804ms)
+			LoadAssemblies (81ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (289ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (43ms)
+			SetupLoadedEditorAssemblies (270ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (3ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (77ms)
+				ProcessInitializeOnLoadAttributes (178ms)
+				ProcessInitializeOnLoadMethodAttributes (9ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.48 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1994 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 220.6 MB.
+System memory in use after: 220.7 MB.
+
+Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 2551.
+Total: 2.264455 ms (FindLiveObjects: 0.120589 ms CreateObjectMapping: 0.053386 ms MarkObjects: 2.028153 ms  DeleteObjects: 0.061725 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 476.140818 seconds.
+  path: Assets/2DGamekit/Prefabs/SceneControl
+  artifactKey: Guid(84040e98252e5ae47b1392c1e54d2ad4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Prefabs/SceneControl using Guid(84040e98252e5ae47b1392c1e54d2ad4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '706774988003fed5056bcf2a43b3ebae') in 0.003133 seconds 
+  Import took 0.007896 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 300.111180 seconds.
+  path: Assets/2DGamekit/Utilities/PostProcessing/GlobalPostProcessingProfile.asset
+  artifactKey: Guid(4062b17d005065746bb3df4e141080ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Utilities/PostProcessing/GlobalPostProcessingProfile.asset using Guid(4062b17d005065746bb3df4e141080ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20daddc611dec44f09a285c0a0367902') in 0.015354 seconds 
+  Import took 0.019100 seconds .
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
