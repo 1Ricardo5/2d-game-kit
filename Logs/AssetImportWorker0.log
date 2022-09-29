@@ -157,3 +157,27 @@ Received Import Request.
 Start importing Assets/2DGamekit/Art/Materials/Environment using Guid(213ae2838fee756478f444fd6a0e4bcc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '979785d271e6cd6700ccf1d59e082618') in 0.003409 seconds 
   Import took 0.005653 seconds .
 
+========================================================================
+Received Import Request.
+  Time since last request: 1065.458383 seconds.
+  path: Assets/2DGamekit/Art/Materials/VFX/Enemies/Gunner/LightningLight.mat
+  artifactKey: Guid(7511cb34746338140b257765ed3fc1cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Art/Materials/VFX/Enemies/Gunner/LightningLight.mat using Guid(7511cb34746338140b257765ed3fc1cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '103e4a229e4728560ea802d7ef17e803') in 0.858798 seconds 
+  Import took 0.863681 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000212 seconds.
+  path: Assets/2DGamekit/Art/Materials/VFX/Environment/LightShafts.mat
+  artifactKey: Guid(98994a9e005562f439742e4b9872cc90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Art/Materials/VFX/Environment/LightShafts.mat using Guid(98994a9e005562f439742e4b9872cc90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d4c113b19b8d70d83979e1c7d54ac30') in 0.009457 seconds 
+  Import took 0.011938 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000155 seconds.
+  path: Assets/2DGamekit/Art/Materials/VFX/Ellen/MuzzleEffect.mat
+  artifactKey: Guid(4f3c74ec70220d440b7748671d32b858) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Art/Materials/VFX/Ellen/MuzzleEffect.mat using Guid(4f3c74ec70220d440b7748671d32b858) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75264a2cea3eb07a0cd3ca764e0f5b0a') in 0.012366 seconds 
+  Import took 0.014924 seconds .
+
