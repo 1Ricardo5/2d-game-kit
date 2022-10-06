@@ -1,0 +1,455 @@
+Unity Editor version:    2020.3.27f1 (e759542391ea)
+Branch:                  2020.3/release
+Build type:              Release
+Batch mode:              YES
+macOS version:           Version 11.6.7 (Build 20G630)
+Darwin version:          20.6.0
+Architecture:            x86_64
+Running under Rosetta:   NO
+Available memory:        16384 MB
+Using pre-set license
+Pro License: NO
+
+COMMAND LINE ARGUMENTS:
+/Users/game1/Downloads/2020.3.27f1/Unity.app/Contents/MacOS/Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+/Users/game1/2d game kit
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+55920
+Successfully changed project path to: /Users/game1/2d game kit
+/Users/game1/2d game kit
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 43.11 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.27f1 (e759542391ea)
+[Subsystems] Discovering subsystems at path /Users/game1/Downloads/2020.3.27f1/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/game1/2d game kit/Assets
+GfxDevice: creating device client; threaded=0
+Renderer: AMD Radeon Pro 5500 XT OpenGL Engine
+Vendor:   ATI Technologies Inc.
+Version:  4.1 ATI-4.6.21
+GLES:     0
+ GL_ARB_blend_func_extended GL_ARB_draw_buffers_blend GL_ARB_draw_indirect GL_ARB_ES2_compatibility GL_ARB_explicit_attrib_location GL_ARB_gpu_shader_fp64 GL_ARB_gpu_shader5 GL_ARB_instanced_arrays GL_ARB_internalformat_query GL_ARB_occlusion_query2 GL_ARB_sample_shading GL_ARB_sampler_objects GL_ARB_separate_shader_objects GL_ARB_shader_bit_encoding GL_ARB_shader_subroutine GL_ARB_shading_language_include GL_ARB_tessellation_shader GL_ARB_texture_buffer_object_rgb32 GL_ARB_texture_cube_map_array GL_ARB_texture_gather GL_ARB_texture_query_lod GL_ARB_texture_rgb10_a2ui GL_ARB_texture_storage GL_ARB_texture_swizzle GL_ARB_timer_query GL_ARB_transform_feedback2 GL_ARB_transform_feedback3 GL_ARB_vertex_attrib_64bit GL_ARB_vertex_type_2_10_10_10_rev GL_ARB_viewport_array GL_EXT_debug_label GL_EXT_debug_marker GL_EXT_depth_bounds_test GL_EXT_texture_compression_s3tc GL_EXT_texture_filter_anisotropic GL_EXT_texture_mirror_clamp GL_EXT_texture_sRGB_decode GL_APPLE_client_storage GL_APPLE_container_object_shareable G
+L_APPLE_flush_render GL_APPLE_object_purgeable GL_APPLE_rgb_422 GL_APPLE_row_bytes GL_APPLE_texture_range GL_ATI_texture_mirror_once GL_NV_texture_barrier
+OPENGL LOG: Creating OpenGL 4.1 graphics device ; Context level  <OpenGL 4.1> ; Context handle -1501359104
+Initialize mono
+Mono path[0] = '/Users/game1/Downloads/2020.3.27f1/Unity.app/Contents/Managed'
+Mono path[1] = '/Users/game1/Downloads/2020.3.27f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = '/Users/game1/Downloads/2020.3.27f1/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56957
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Users/game1/Downloads/2020.3.27f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Registered in 0.000444 seconds.
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 41.72 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.514 seconds
+Domain Reload Profiling:
+	ReloadAssembly (514ms)
+		BeginReloadAssembly (36ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (413ms)
+			LoadAssemblies (36ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (152ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (30ms)
+			SetupLoadedEditorAssemblies (161ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (3ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (42ms)
+				BeforeProcessingInitializeOnLoad (6ms)
+				ProcessInitializeOnLoadAttributes (85ms)
+				ProcessInitializeOnLoadMethodAttributes (25ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.003577 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.77 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.941 seconds
+Domain Reload Profiling:
+	ReloadAssembly (942ms)
+		BeginReloadAssembly (134ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (26ms)
+		EndReloadAssembly (752ms)
+			LoadAssemblies (63ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (291ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (54ms)
+			SetupLoadedEditorAssemblies (254ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (3ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (44ms)
+				ProcessInitializeOnLoadAttributes (193ms)
+				ProcessInitializeOnLoadMethodAttributes (12ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+Validating Project structure ... 0.016954 seconds.
+Shader import version has changed; will reimport all shaders...
+Upgrading shader files ...0.038564 seconds.
+Application.AssetDatabase Initial Script Refresh Start
+RefreshInfo: InitialScriptRefreshV2(NoUpdateAssetOptions) scanfilter:  ... 1 filters
+RefreshProfiler: Total: 0.000ms
+Application.AssetDatabase Initial Script Refresh End
+Application.AssetDatabase.Refresh Start
+Application.AssetDatabase.Refresh End
+RefreshInfo: StopAssetImportingV2(ForceSynchronousImport) scanfilter: 
+RefreshProfiler: Total: 0.000ms
+Launching external process: /Users/game1/Downloads/2020.3.27f1/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.01 seconds
+Initializing Unity extensions:
+========================================================================
+Worker process is ready to serve import requests
+Refreshing native plugins compatible for Editor in 0.48 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2062 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 215.4 MB.
+System memory in use after: 214.8 MB.
+
+Unloading 223 unused Assets to reduce memory usage. Loaded Objects now: 2531.
+Total: 2.735545 ms (FindLiveObjects: 0.156774 ms CreateObjectMapping: 0.080278 ms MarkObjects: 2.113698 ms  DeleteObjects: 0.384195 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/2DGamekit/Audio/Enemies/Spitter
+  artifactKey: Guid(c42ce1429deafe04fadeb4c568e8bb04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Audio/Enemies/Spitter using Guid(c42ce1429deafe04fadeb4c568e8bb04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76aad39838ffc9c68024f74d882f5d7d') in 0.003174 seconds 
+  Import took 0.005481 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.216092 seconds.
+  path: Assets/2DGamekit/Audio/Enemies/Spitter/SpitterAttack.ogg
+  artifactKey: Guid(626b798008ec0b44297bde1ab89110d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Audio/Enemies/Spitter/SpitterAttack.ogg using Guid(626b798008ec0b44297bde1ab89110d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3dcd63789580504e8990bd7297f11249') in 0.345413 seconds 
+  Import took 0.350908 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000194 seconds.
+  path: Assets/2DGamekit/Audio/Enemies/Spitter/SpitterAttack02.ogg
+  artifactKey: Guid(483e3145e94a4024382267d950e66a4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Audio/Enemies/Spitter/SpitterAttack02.ogg using Guid(483e3145e94a4024382267d950e66a4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9a0bff00c4cb7fa3c4dc9ffdfe7317f') in 0.006609 seconds 
+  Import took 0.009019 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000150 seconds.
+  path: Assets/2DGamekit/Audio/Enemies/Spitter/SpitterDie.ogg
+  artifactKey: Guid(348a440d6212342409cdc06412272519) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Audio/Enemies/Spitter/SpitterDie.ogg using Guid(348a440d6212342409cdc06412272519) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '982b8010b93d1a827a5dbb9983a29449') in 0.004883 seconds 
+  Import took 0.007202 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000147 seconds.
+  path: Assets/2DGamekit/Audio/Enemies/Spitter/SpitterIdle01.ogg
+  artifactKey: Guid(096c953738cd7064f872d9cd2bc0c4ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Audio/Enemies/Spitter/SpitterIdle01.ogg using Guid(096c953738cd7064f872d9cd2bc0c4ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44569a9724d7a51ff6a58fb147554bab') in 0.004992 seconds 
+  Import took 0.007366 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000137 seconds.
+  path: Assets/2DGamekit/Audio/Enemies/Spitter/SpitterIdle03.ogg
+  artifactKey: Guid(410d6e072c4707340a8533a6df8f3c9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Audio/Enemies/Spitter/SpitterIdle03.ogg using Guid(410d6e072c4707340a8533a6df8f3c9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c054f5e7f45af3836984607ff5201cd9') in 0.005594 seconds 
+  Import took 0.007952 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000148 seconds.
+  path: Assets/2DGamekit/Audio/Enemies/Spitter/SpitterWalk.ogg
+  artifactKey: Guid(375894471eb62624ca57c2d1d95eada3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Audio/Enemies/Spitter/SpitterWalk.ogg using Guid(375894471eb62624ca57c2d1d95eada3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2bcee4d5231f70eb78941b111b3e5fa8') in 0.004848 seconds 
+  Import took 0.007231 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000147 seconds.
+  path: Assets/2DGamekit/Audio/Enemies/Spitter/SpitterRun.ogg
+  artifactKey: Guid(046c9263457dd334fa317ce58306f0d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Audio/Enemies/Spitter/SpitterRun.ogg using Guid(046c9263457dd334fa317ce58306f0d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ec1f5997415ae3ba1b21e58826a3d67') in 0.004771 seconds 
+  Import took 0.007337 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000140 seconds.
+  path: Assets/2DGamekit/Audio/Enemies/Spitter/SpitterSpitActive01.ogg
+  artifactKey: Guid(5e7a75cd55127a84e85c8bed1a7d272e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Audio/Enemies/Spitter/SpitterSpitActive01.ogg using Guid(5e7a75cd55127a84e85c8bed1a7d272e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6456cec8ca5a90600f8d1383d837cf89') in 0.005168 seconds 
+  Import took 0.007578 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000140 seconds.
+  path: Assets/2DGamekit/Audio/Enemies/Spitter/SpitterMouthChomp01.ogg
+  artifactKey: Guid(81d272f5743bdfa4ca16d1ff7c896286) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Audio/Enemies/Spitter/SpitterMouthChomp01.ogg using Guid(81d272f5743bdfa4ca16d1ff7c896286) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34c1f21c56d72f7e22325c9eba1fc340') in 0.005271 seconds 
+  Import took 0.007741 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000148 seconds.
+  path: Assets/2DGamekit/Audio/Enemies/Spitter/SpitterDieSplat.ogg
+  artifactKey: Guid(a297ae3d7bfe76a4eae4f7deb210e01b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Audio/Enemies/Spitter/SpitterDieSplat.ogg using Guid(a297ae3d7bfe76a4eae4f7deb210e01b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b76a8ad98da35441be4c1c0b393556fa') in 0.005654 seconds 
+  Import took 0.008101 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000141 seconds.
+  path: Assets/2DGamekit/Audio/Enemies/Spitter/SpitterIdlev2.ogg
+  artifactKey: Guid(fbed9ebca865ab84588a1eeaf71e1c70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Audio/Enemies/Spitter/SpitterIdlev2.ogg using Guid(fbed9ebca865ab84588a1eeaf71e1c70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a400e937fcbcea7463bb7505e884aba') in 0.005258 seconds 
+  Import took 0.007895 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000205 seconds.
+  path: Assets/2DGamekit/Audio/Enemies/Spitter/SpitterFootstepRun01.ogg
+  artifactKey: Guid(bce7946d519b97049bcdf6d38e497156) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Audio/Enemies/Spitter/SpitterFootstepRun01.ogg using Guid(bce7946d519b97049bcdf6d38e497156) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff14f7702e8390e8d5dc281c46b06600') in 0.005685 seconds 
+  Import took 0.008474 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000151 seconds.
+  path: Assets/2DGamekit/Audio/Enemies/Spitter/SpitterSpitCharge01.ogg
+  artifactKey: Guid(4b8d4ebe1b9c5a8429428fe7c8842b7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Audio/Enemies/Spitter/SpitterSpitCharge01.ogg using Guid(4b8d4ebe1b9c5a8429428fe7c8842b7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4562c62e0375813d537631775388d67e') in 0.005418 seconds 
+  Import took 0.008163 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000195 seconds.
+  path: Assets/2DGamekit/Audio/Enemies/Spitter/SpitterFootstepRun02.ogg
+  artifactKey: Guid(a95d90b9f54da644b86b94b0de023a49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Audio/Enemies/Spitter/SpitterFootstepRun02.ogg using Guid(a95d90b9f54da644b86b94b0de023a49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56211dd53c5d7ad590adf89884ed966f') in 0.006626 seconds 
+  Import took 0.009875 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000140 seconds.
+  path: Assets/2DGamekit/Audio/Enemies/Spitter/SpitterMouthChomp02.ogg
+  artifactKey: Guid(b40f7bd7e2bc4524eb3885fe0ea487df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Audio/Enemies/Spitter/SpitterMouthChomp02.ogg using Guid(b40f7bd7e2bc4524eb3885fe0ea487df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b66e741579b79d690b07355553aa755') in 0.005862 seconds 
+  Import took 0.009338 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000166 seconds.
+  path: Assets/2DGamekit/Audio/Enemies/Spitter/SpitterSpitActive02.ogg
+  artifactKey: Guid(166e225c071129d449c9d61049c8242b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Audio/Enemies/Spitter/SpitterSpitActive02.ogg using Guid(166e225c071129d449c9d61049c8242b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27d32f7038f0b6703ec246ece03279f6') in 0.006594 seconds 
+  Import took 0.010003 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000165 seconds.
+  path: Assets/2DGamekit/Audio/Enemies/Spitter/SpitterAttack03.ogg
+  artifactKey: Guid(ca8d70067fe3e8045b1368d231e661c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Audio/Enemies/Spitter/SpitterAttack03.ogg using Guid(ca8d70067fe3e8045b1368d231e661c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1088ebbc0cda0875e17375bd9beb68d2') in 0.005933 seconds 
+  Import took 0.008852 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000165 seconds.
+  path: Assets/2DGamekit/Audio/Enemies/Spitter/SpitterFootstep02.ogg
+  artifactKey: Guid(f64bda8dce465a34eabf62414c0cd06a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Audio/Enemies/Spitter/SpitterFootstep02.ogg using Guid(f64bda8dce465a34eabf62414c0cd06a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3a08ef9b9284604a2832d9e04589ecb') in 0.005968 seconds 
+  Import took 0.008563 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000172 seconds.
+  path: Assets/2DGamekit/Audio/Enemies/Spitter/SpitterSpitActive03.ogg
+  artifactKey: Guid(9b49110fde0b1c44c8ede97afef653a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Audio/Enemies/Spitter/SpitterSpitActive03.ogg using Guid(9b49110fde0b1c44c8ede97afef653a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c741740a50b5af4039d55f13bd703a27') in 0.005980 seconds 
+  Import took 0.008632 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000145 seconds.
+  path: Assets/2DGamekit/Audio/Enemies/Spitter/SpitterMouthChomp03.ogg
+  artifactKey: Guid(af2f749339d6d0d4b9ff920739780881) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Audio/Enemies/Spitter/SpitterMouthChomp03.ogg using Guid(af2f749339d6d0d4b9ff920739780881) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e177d3d291a98239577dde69ef0f5f73') in 0.005702 seconds 
+  Import took 0.008424 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000144 seconds.
+  path: Assets/2DGamekit/Audio/Enemies/Spitter/SpitterAttack01.ogg
+  artifactKey: Guid(c539814be01106547adfb69ffbf92813) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Audio/Enemies/Spitter/SpitterAttack01.ogg using Guid(c539814be01106547adfb69ffbf92813) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '546b20d8caccbd0a92f1c942a9b505f5') in 0.005181 seconds 
+  Import took 0.007757 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000162 seconds.
+  path: Assets/2DGamekit/Audio/Enemies/Spitter/SpitterIdle02.ogg
+  artifactKey: Guid(f5e80c4c924d5a840a90639ac96be5ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Audio/Enemies/Spitter/SpitterIdle02.ogg using Guid(f5e80c4c924d5a840a90639ac96be5ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a094c154b5e59f1be6ec36c3a78f118') in 0.005135 seconds 
+  Import took 0.007696 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000151 seconds.
+  path: Assets/2DGamekit/Audio/Enemies/Spitter/SpitterFootstep01.ogg
+  artifactKey: Guid(d35a0d8b3dbfb1548b7d2acf1f35e2b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Audio/Enemies/Spitter/SpitterFootstep01.ogg using Guid(d35a0d8b3dbfb1548b7d2acf1f35e2b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '744603532c4f1029da82384f2c940fb4') in 0.005355 seconds 
+  Import took 0.007888 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 32.236800 seconds.
+  path: Assets/2DGamekit/Audio/Environment/AcidPoolJump.ogg
+  artifactKey: Guid(b1db6b09fbe3492468d14d87760f0640) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Audio/Environment/AcidPoolJump.ogg using Guid(b1db6b09fbe3492468d14d87760f0640) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98c725805d70176b7c3cde87619baaed') in 0.006904 seconds 
+  Import took 0.010105 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000140 seconds.
+  path: Assets/2DGamekit/Audio/Environment/IdlingBugSwarm.ogg
+  artifactKey: Guid(8e5cc3b5c4ff0db4db464b047e971c77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Audio/Environment/IdlingBugSwarm.ogg using Guid(8e5cc3b5c4ff0db4db464b047e971c77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48b4e9f345a667935901f5f0f80a60c1') in 0.005150 seconds 
+  Import took 0.007580 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000176 seconds.
+  path: Assets/2DGamekit/Audio/Environment/AcidPoolSplash01.ogg
+  artifactKey: Guid(8be2025e3343aed4d9f0df01c1285ef4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Audio/Environment/AcidPoolSplash01.ogg using Guid(8be2025e3343aed4d9f0df01c1285ef4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58e073c7de4e215fdb2f7834c36b2d4c') in 0.005472 seconds 
+  Import took 0.007996 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000136 seconds.
+  path: Assets/2DGamekit/Audio/Environment/AcidPoolSplash02.ogg
+  artifactKey: Guid(a1afaeb6a19ef41b4991c2c39494347a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Audio/Environment/AcidPoolSplash02.ogg using Guid(a1afaeb6a19ef41b4991c2c39494347a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa3535bb3116510086da658364a3faf0') in 0.005231 seconds 
+  Import took 0.007513 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000157 seconds.
+  path: Assets/2DGamekit/Audio/Environment/AcidPoolLoop.ogg
+  artifactKey: Guid(3c9a4144f5db2c144a020c42598b4bf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Audio/Environment/AcidPoolLoop.ogg using Guid(3c9a4144f5db2c144a020c42598b4bf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5080e995590ccc7d05fe2fe76d0b28b6') in 0.005486 seconds 
+  Import took 0.007909 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000136 seconds.
+  path: Assets/2DGamekit/Audio/Environment/EnvironmentalAmbiance.ogg
+  artifactKey: Guid(3a9ba69f03694d44a9968f5b7c4abb1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Audio/Environment/EnvironmentalAmbiance.ogg using Guid(3a9ba69f03694d44a9968f5b7c4abb1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2961fac91fe35dfab12ebff05f54032') in 0.005038 seconds 
+  Import took 0.007386 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000153 seconds.
+  path: Assets/2DGamekit/Audio/Environment/Shoreline.ogg
+  artifactKey: Guid(f7d2e5bd8d17f8f4ab011be5544a69b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2DGamekit/Audio/Environment/Shoreline.ogg using Guid(f7d2e5bd8d17f8f4ab011be5544a69b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b959d4c654421c3f2529ffe2def52348') in 0.005097 seconds 
+  Import took 0.007428 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001598 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.49 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.931 seconds
+Domain Reload Profiling:
+	ReloadAssembly (932ms)
+		BeginReloadAssembly (104ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (51ms)
+		EndReloadAssembly (773ms)
+			LoadAssemblies (60ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (284ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (42ms)
+			SetupLoadedEditorAssemblies (266ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (3ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (76ms)
+				ProcessInitializeOnLoadAttributes (176ms)
+				ProcessInitializeOnLoadMethodAttributes (9ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.50 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1994 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 217.2 MB.
+System memory in use after: 217.4 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 2553.
+Total: 2.243425 ms (FindLiveObjects: 0.126282 ms CreateObjectMapping: 0.057018 ms MarkObjects: 2.049234 ms  DeleteObjects: 0.010252 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
